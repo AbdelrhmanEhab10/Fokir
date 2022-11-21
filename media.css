@@ -1,0 +1,152 @@
+@media screen and  (min-width:0px) and (max-width:768px)
+{
+    .navbar
+    {
+        padding: 0;
+    }
+    .list-item a 
+    {
+        font-size: 12px;
+    }
+    .list-item li 
+    {
+        padding: 25px 5px;
+
+    }
+    .pic
+    {
+        width: 100%;
+    }
+    .cover
+    {
+        width: 0;
+        height: 0;
+    }
+    .pic img
+    {
+        width: 70%;
+        position: absolute;
+        bottom: 0%;
+        right:15% ;
+    
+    }
+    .detail
+    {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .service
+    {
+        width: 100%;
+    }
+    .services h2::after
+    {
+        position: absolute;
+        top: 79%;
+        right: 35%;
+    }
+    .services h2::before
+    {
+        position: absolute;
+        top: 75%;
+        left: 43%;
+    }
+    .service p
+    {
+        width: 50%;
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+    .portfolio h2::after
+    {
+        position: absolute;
+        bottom: 0%;
+        right: 32%;
+    }
+    .portfolio h2::before
+    {
+        position: absolute;
+        bottom: 75%;
+        left: 43%;
+    }
+    .portfolio button
+    {
+        padding: 60px 5px;
+    }
+    .por-images img
+    {
+        width: 100%;
+    }
+    .num
+    {
+        width: 100%;
+        padding: 20px;
+    }
+    .feedback h2::after
+    {
+        position: absolute;
+        bottom: 0%;
+        right: 35%;
+    }
+    .feedback h2::before
+    {
+        position: absolute;
+        bottom: 0%;
+        left: 40%;
+    }
+    .client
+    {
+        width: 100%;
+        position: relative;
+        left:0px;
+        overflow: hidden;
+        padding-bottom: 140px;
+    }
+    .client::after
+    {
+        content: none;
+    }
+    .client::before
+    {
+        content: none;
+    }
+    .blog h2::before
+    {
+        position: absolute;
+        bottom: 0;
+        left: 41%;
+    }
+    .blog h2::after
+    {
+        position: absolute;
+        bottom: 0;
+        left: 31%;
+    }
+    .read
+    {
+        width: 80%;
+        position: relative;
+        left: 40px;
+    }
+    .contact h2::before
+    {
+        position: absolute;
+        bottom: 0;
+        left: 41%;
+    }
+    .contact h2::after
+    {
+        position: absolute;
+        bottom: 0;
+        left: 33%;
+    }
+
+
+    
+
+    
+    
+} 
+ 

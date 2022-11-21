@@ -1,0 +1,720 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix
+{
+    clear: both;
+}
+.home
+{
+    height: 100vh;
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar
+{
+    width: 100%;
+    float: left;
+    padding: 0px 50px;
+    
+}
+.logo
+{
+    width: 20%;
+    float: left;
+    padding: 20px 50px;
+}
+.logo a
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 25px;
+    color: #FF305B;
+}
+.list-item
+{
+float: right;
+}
+.list-item ul
+{
+    list-style-type: none;
+}
+.list-item li
+{
+    float: left;
+    padding: 20px 15px;
+}
+.list-item a
+{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    transition: color .3s;
+}
+.list-item a:hover
+{
+    color: #FF305B;
+}
+.i-am
+{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 80px 0px;
+}
+.i-am h3
+{
+    padding-top: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+}
+.i-am h1
+{
+    color: #FF305B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 77px;
+    padding-top: 8px;
+}
+.i-am h4
+{
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.2px;
+    padding-top: 20px;
+}
+.about
+{
+    width: 100%;
+    background-color: aqua;
+}
+.cover
+{
+    border: solid #555555 10px;
+    border-radius: 4px;
+    width: 50%;
+    height: 72%;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+}
+.pic
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+
+}
+
+.pic img
+{
+    border-radius: 4px;
+    width: 55%;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+
+}
+
+.detail
+{
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding: 20px 40px;
+}
+.detail h2
+{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-top: 50px;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+.detail h2:after
+{
+    content: '';
+    background-color: #FF305B;
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    width: .8%;
+    height: 30%;
+    float: right;
+}
+.detail p
+{
+    padding: 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #555555;
+    border-bottom: #555555 1px dashed;
+}
+
+.detail ul
+{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 25px 0px;
+    color: #555555;
+}
+.list li
+{
+    list-style-type: none;
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+span
+{
+    color: black;
+    padding-right: 2px;
+
+}
+
+.detail button
+{
+    padding: 10px 24px;
+    margin-left: 10px;
+    border: none;
+    background-color: #FF305B;
+    border-radius: 5px;
+    transition: background-color .3s ease-in-out ;
+
+}
+
+.detail button a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+
+}
+.detail button:hover
+{
+    background-color:#EC2403;
+}
+.container
+{
+    width: 100%;
+    background-color: #F1F1F1;
+    float: left;
+}
+.services
+{ 
+    background-color: #F1F1F1;
+    float: left;
+    padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 10%;
+}
+.services h2
+{
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.services h2::before
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px;
+    padding: 5px 40px;
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+.services h2::after
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px 0px;
+    padding: 0px 80px;
+    position: absolute;
+    top: 95px;
+    right: 460px;
+  
+}
+.service
+{
+    width: 25%;
+    float: left;
+    padding: 40px 10px;
+    transition: scale .3s ease-in-out 0s , background-color .3s ease-in-out 0s;
+    
+}
+.service img
+{
+    padding-bottom: 20px;
+}
+.service h3
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.service p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    line-height: 25px;
+}
+.service:hover
+{
+transform: scale(1.1,1.1);
+background-color: #fff;
+}
+
+
+.portfolio
+{ 
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    position: relative;
+    left: 10%;
+}
+.portfolio h2
+{
+    font-size: 40px;
+    padding-top: 80px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.portfolio h2::before
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px;
+    padding: 5px 40px;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    
+}
+.portfolio h2::after
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px 0px;
+    padding: 0px 80px;
+    position: absolute;
+    top: 135px;
+    right: 460px;
+  
+}
+.portfolio button
+{
+    border: none;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 60px 20px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.portfolio button:hover
+{
+    color:#EC2403;
+}
+
+.por-images img
+{
+    width: 25%;
+    padding: 10px;
+}
+
+.projects
+{
+    width: 80%;
+    float: left;
+    background-color: #F1F1F1;
+    text-align: center;
+    position: relative;
+    left: 10%;
+}
+.num
+{
+    width: 25%;
+    float: left;
+    padding: 30px;
+    padding-top: 50px;
+}
+.num img
+{
+    padding-bottom:10px ;
+}
+.num h3
+{
+    padding-bottom:10px ;
+    font-size: 26px;
+    line-height: 29px ;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.num h5
+{
+    padding-bottom:10px ;
+    font-size: 16px;
+    line-height: 18px ;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.feedback
+{ 
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 150px;
+    position: relative;
+    left: 10%;
+}
+.feedback h2
+{
+    font-size: 40px;
+    padding-top: 80px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.feedback h2::before
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px;
+    padding: 5px 40px;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    
+}
+.feedback h2::after
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px 0px;
+    padding: 0px 80px;
+    position: absolute;
+    top: 135px;
+    right: 460px;
+}
+.client
+{
+    width: 60%;
+    float: left;
+    text-align: left;
+    background-color: #F1F1F1;
+    padding: 40px;
+    padding-bottom: 80px;
+    position: relative;
+    top: 80px;
+    left: 20%;
+}
+
+.client img
+{
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    position: relative;
+    z-index: 3;
+}
+.cl-detail 
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: 600;
+    position: absolute;
+    left: 25%;
+    
+}
+.cl-detail h3
+{
+    padding-bottom:  10px; 
+}
+.cl-detail a
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+    color: #777;
+}
+.cl-detail p
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+    
+}
+.client::before
+{
+    content: '';
+    background-color: #FF305B;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.client::after
+{
+    content: '';
+    background-color: #F1F1F1;
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    transform: rotate(45deg);
+    z-index: 2;
+}
+
+.blog
+{ 
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    left: 10%;
+}
+.blog h2
+{
+    font-size: 40px;
+    padding-top: 80px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.blog h2::before
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px;
+    padding: 5px 40px;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    
+}
+.blog h2::after
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px 0px;
+    padding: 0px 80px;
+    position: absolute;
+    top: 135px;
+    right: 460px;
+}
+
+.read
+{
+    width: 30%;
+    float: left;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 10px;
+}
+.read img
+{
+    width: 100%;
+}
+.read p
+{
+    padding: 8px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    width: 80%;
+}
+.read h4
+{
+    padding: 10px ;
+    font-family: 'Source Sans Pro', sans-serif;    font-weight: 400;
+    line-height: 26px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.rmore
+{
+    padding: 10px ;
+    padding-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;    font-weight: 400;
+    line-height: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+
+}
+.read iframe
+{
+    width: 100%;
+    height: 30%;
+}
+.contact
+{ 
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    left: 10%;
+}
+.contact h2
+{
+    font-size: 40px;
+    padding-top: 80px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact h2::before
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px;
+    padding: 5px 40px;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    
+}
+.contact h2::after
+{
+    content: '';
+    border: solid #FF305B ;
+    border-width: 1px 0px 0px;
+    padding: 0px 80px;
+    position: absolute;
+    top: 135px;
+    right: 460px;
+}
+.inputs form input
+{
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 45%;
+    float: left;
+    margin:10px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.inputs textarea
+{
+    float: left;
+    width: 92%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    top: 50px;
+    left: 35px;
+}
+.inputs button
+{
+    float: left;
+    position: relative;
+    top: 70px;
+    left: 35px;
+    background-color: #FF305B;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    transition: background-color .3s;
+
+}
+.inputs button:hover
+{
+    background-color: #EC2403;
+}
+.last
+{
+    background-color: #333333;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+.last p
+{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.last p span
+{
+    color: #FF305B;
+}
+
+
+
+
+
+
+
+
+
+
+
